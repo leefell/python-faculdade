@@ -1,0 +1,16 @@
+#Variaveis // hashtag comenta coisas em python
+nome = ""
+nota1 = 0.0
+nota2 = 0.0
+nota3 = 0.0
+media = 0.0
+
+#algoritmo
+nome = input("Informe o nome do aluno: ")
+nota1 = float(input("Informe a nota 1: "))
+nota2 = float(input("Informe a nota 2: "))
+nota3 = float(input("Informe a nota 3: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(f"{nome}, a sua média é: {media}")
